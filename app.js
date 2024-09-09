@@ -42,11 +42,11 @@ function pesquisar() {
           <p class="descricao-meta"><strong>Evolução:</strong> ${dado.evolucao}</p>
           <a href="${dado.link}" target="_blank">Mais informações</a>
         </div>`;
-        } 
+        }  }
         if (!resultados) {
           resultados = "<p>Busca não encontrada!</p>"
         }
-    }
+   
   
     // Atribui o HTML gerado para a seção de resultados
     section.innerHTML = resultados;

@@ -46,7 +46,8 @@ function pesquisar() {
         if (!resultados) {
           resultados = "<p>Busca não encontrada!</p>"
         }
-   
+       //limpar barra de pesquisa
+        document.getElementById("campo-pesquisa").value = "";
   
     // Atribui o HTML gerado para a seção de resultados
     section.innerHTML = resultados;
